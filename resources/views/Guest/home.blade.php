@@ -3,6 +3,6 @@
 @section("title","Home")
 
 @section("main")
-<p> Parte centrale </p>
+@dd($movies)
 
 @endsection
