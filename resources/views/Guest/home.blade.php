@@ -3,6 +3,7 @@
 @section("title","Home")
 
 @section("main")
+
 @dd($movies)
 
 @endsection

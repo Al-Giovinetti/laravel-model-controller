@@ -10,6 +10,6 @@ class PageController extends Controller{
     public function home(){
         $movies = Movie::all();
 
-        return view("Guest.home",compact("movies"));
+        return view("guest.home",compact("movies"));
     }
 }
