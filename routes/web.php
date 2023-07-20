@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Guest\PageController;
+use App\Http\Controllers\Guest\PageController as GuestPageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', )->name("home");
+Route::get('/',[GuestPageController::class,"home"] )->name("home");
